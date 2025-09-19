@@ -15,4 +15,4 @@ function verifyPassword(str) {
     }
 }
 
-console.log(verifyPassword("testaA8sasasdasd"))
+console.log(verifyPassword("testaAABd23sasasdasd"))
