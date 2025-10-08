@@ -7,12 +7,10 @@
 function verifyPassword(str) {
     const myPassword = str;
 
-    for (let i = 0; i <= myPassword.length; i++) {
-        if (myPassword.length > 8 && /[A-Z]/.test(myPassword) && /[0-9]/.test(myPassword)) {
-            return "You password create susseful"
-        }
-        return ("invalid characters")
+    if (myPassword.length > 8 && /[A-Z]/.test(myPassword) && /[0-9]/.test(myPassword)) {
+        return "You password create susseful"
     }
+    return ("invalid characters")
 }
 
 console.log(verifyPassword("testaAABd23sasasdasd"))
